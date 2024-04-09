@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krish Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link type="image/png" sizes="120x120" rel="icon" href="./sources/images/cafe-caliente.png">
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <i class='bx bxs-map'></i>
+            <input type="text" placeholder="ENTER LOCATION" spellcheck="false">
+            <button class="bx bx-search"></button>
+        </div>
+    <div class="weather-box">
+        <div class="box">
+            <div class="info-weather">
+                <div class="weather">
+                    <img src="/weather-news.png">
+                    <p class="temperature">16 <span>°C</span></p>
+                    <p class="description">Nublado</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="weather-details">
+        <div class="humidity">
+            <i class="bx bx-water"></i>
+            <div class="text">
+                <div class="info-humidity">
+                    <span>0%</span>
+                </div>
+                <p>humidity</p>
+            </div>
+        </div>
+        
+        <div class="wind">
+            <i class="bx bx-wind"></i>
+            <div class="text">
+                <div class="info-wind">
+                    <span>0 Km/h</span>
+                </div>
+                <p>Wind</p>
+            </div>
+        </div>
+    </div>
+     <div class="not-found">
+        <div class="box">
+            <img src="Error.jpg">
+          
+        </div>
+     </div>  
+    </div>
+
+    <script src="script.js"></script>
+    </body>
+</html>
